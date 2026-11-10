@@ -1,0 +1,16 @@
+LOOPS CHANNEL  v1.0.0
+by Loops  -  https://loops.co.ke
+
+A console-style channel strip for FL Studio (VST3, Windows 64-bit):
+
+  FILTERS   18 dB/oct high-pass (20-350 Hz) and 12 dB/oct low-pass (3-22 kHz), with SPLIT to send them to the dynamics side-chain only
+  EQ        4-band: HF shelf, HMF bell, LMF bell, LF shelf (+/-16 dB), HMF x3 and LMF /3 range switches, switchable Q
+  COMPRESS  Ratio 1-20:1, threshold +10 to -20 dB, release .05-3 s, fast-attack switch
+  EXPAND/GATE  Threshold, range 0-40 dB, release, fast-attack switch, GATE mode
+  ROUTING   EQ TO (bypass / EQ in dynamics side-chain), DYN TO (bypass / channel output)
+  GAIN      Input trim, phase invert, output fader, input/output peak meters, gain-reduction ladder
+  ANALOG    Soft saturation on/off
+  PRESETS   19 factory presets (vocals, drums, bass, guitar, bus, gate/expander)
+
+Installs to C:\Program Files\Common Files\VST3 (scanned by FL Studio automatically).
+In FL Studio: Options > Manage plugins > Find installed plugins.
